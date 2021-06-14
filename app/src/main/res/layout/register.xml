@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/regsiter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/layout_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/runame"
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:drawableRight="@drawable/ic_user"
+                android:layout_marginTop="15dp"
+                android:inputType="textEmailAddress"
+                android:hint="Username"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rumail"
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:drawableRight="@drawable/ic_email"
+                android:layout_marginTop="15dp"
+                android:inputType="textEmailAddress"
+                android:hint="Email"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rupass"
+                android:paddingBottom="20dp"
+                android:textSize="20sp"
+                android:drawableRight="@drawable/ic_pass"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rurepass"
+                android:paddingBottom="20dp"
+                android:textSize="20sp"
+                android:drawableRight="@drawable/ic_pass"
+                android:layout_marginTop="15dp"
+                android:inputType="textPassword"
+                android:hint="Re-Password"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Signin"
+                android:onClick="signin"
+                android:background="@drawable/shape"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:padding="15dp"
+            android:weightSum="2"
+            android:layout_weight="3"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Already have an account ?"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="21sp" />
+
+            <Button
+                android:id="@+id/sup"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape"
+                android:layout_marginBottom="24dp"
+                android:text="Login"
+                android:layout_weight="1"
+                android:onClick="login"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+

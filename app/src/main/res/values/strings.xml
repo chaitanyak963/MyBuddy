@@ -1,0 +1,52 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Final Project</string>
+    <string name="chat">Chat</string>
+    <string name="news">News</string>
+    <string name="notifications">Notifications</string>
+    <string name="email">Please enter email</string>
+    <string name="password">Please enter password</string>
+    <string name="wait">Authenticating Please Wait...</string>
+    <string name="failed">Authentication Failed</string>
+    <string name="register">Registering Please Wait...</string>
+    <string name="passwordreset">Reset Link Sent To Registered Mail</string>
+    <string name="failedreset">Please Enter a Vaild Mail</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="internet">Please turn on internet</string>
+    <string name="authentication">Authentication</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="re_enter_your_password">Re-Enter Your Password</string>
+    <string name="showposterpath">showPosterpath</string>
+    <string name="reset">Reset</string>
+    <string name="reg">REGISTER</string>
+    <string name="login">Login</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+</resources>

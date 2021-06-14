@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:weightSum="10"
+    tools:context=".EmrgencyActivity"
+    android:layout_width="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:layout_marginTop="21dp"
+        android:id="@+id/ename"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail"
+        android:inputType="textEmailAddress"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/emmail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:textSize="24sp"
+        android:layout_marginTop="21dp"
+        android:id="@+id/emnum"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Emergency Number 1"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:id="@+id/emnum1"
+        android:layout_marginTop="21dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Emergency Number 2"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:id="@+id/emnum2"
+        android:layout_marginTop="21dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:hint="Emergency Number 3"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:id="@+id/emnum3"
+        android:layout_marginTop="21dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_weight="1"
+        android:layout_marginTop="21dp"
+        android:onClick="submit"/>
+
+
+</LinearLayout>

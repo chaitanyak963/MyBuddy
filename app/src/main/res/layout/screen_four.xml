@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protect Girls"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_marginTop="21dp"
+            android:textStyle="bold"
+            android:textColor="#620672"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="21dp"
+            android:gravity="center"
+            android:lineSpacingExtra="9dp"
+            android:text="An Additional Feature to protect girls is added into the application to monitor and protect from the unexpected enemies."
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
